@@ -1,4 +1,4 @@
-https://travis-ci.com/guimaraes-lucas/notebook-api.svg?branch=master
+[![Build Status](https://travis-ci.com/guimaraes-lucas/notebook-api.svg?branch=master)](https://travis-ci.com/guimaraes-lucas/notebook-api)
 
 # O que é esse projeto?
 
