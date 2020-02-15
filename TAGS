@@ -1,0 +1,54 @@
+
+app/mailers/application_mailer.rb,67
+class ApplicationMailer < ActionMailer::BaseApplicationMailer1,0
+
+app/models/contact.rb,46
+class Contact < ApplicationRecordContact1,0
+
+app/models/application_record.rb,67
+class ApplicationRecord < ActiveRecord::BaseApplicationRecord1,0
+
+app/jobs/application_job.rb,58
+class ApplicationJob < ActiveJob::BaseApplicationJob1,0
+
+app/controllers/application_controller.rb,78
+class ApplicationController < ActionController::APIApplicationController1,0
+
+app/controllers/contacts_controller.rb,272
+class ContactsController < ApplicationControllerContactsController1,0
+  def indexindex5,0
+  def showshow12,0
+  def createcreate17,0
+  def updateupdate28,0
+  def destroydestroy37,0
+    def set_contactset_contact43,0
+    def contact_paramscontact_params48,0
+
+app/channels/application_cable/connection.rb,195
+module ApplicationCableApplicationCable1,0
+  class Connection < ActionCable::Connection::BaseConnection2,0
+  class Connection < ActionCable::Connection::BaseApplicationCable::Connection2,0
+
+app/channels/application_cable/channel.rb,177
+module ApplicationCableApplicationCable1,0
+  class Channel < ActionCable::Channel::BaseChannel2,0
+  class Channel < ActionCable::Channel::BaseApplicationCable::Channel2,0
+
+test/models/contact_test.rb,60
+class ContactTest < ActiveSupport::TestCaseContactTest3,0
+
+test/test_helper.rb,101
+class ActiveSupport::TestCaseTestCase5,0
+class ActiveSupport::TestCaseActiveSupport::TestCase5,0
+
+test/controllers/contacts_controller_test.rb,90
+class ContactsControllerTest < ActionDispatch::IntegrationTestContactsControllerTest3,0
+
+config/application.rb,165
+module NotebookApiNotebookApi20,0
+  class Application < Rails::ApplicationApplication21,0
+  class Application < Rails::ApplicationNotebookApi::Application21,0
+
+db/migrate/20200215002951_create_contacts.rb,95
+class CreateContacts < ActiveRecord::Migration[5.2]CreateContacts1,0
+  def changechange2,0
