@@ -1,3 +1,5 @@
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/guimaraes-lucas/notebook-api) 
+
 [![Build Status](https://travis-ci.com/guimaraes-lucas/notebook-api.svg?branch=master)](https://travis-ci.com/guimaraes-lucas/notebook-api)
 
 # O que é esse projeto?
