@@ -34,6 +34,8 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'faker'
+  # A runtime developer console and IRB alternative with powerful introspection capabilities.
+  gem 'pry-rails'
 end
 
 group :development do
