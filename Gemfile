@@ -14,6 +14,8 @@ gem 'puma', '~> 3.12'
 # ActiveModel::Serializer implementation and Rails hooks
 gem 'active_model_serializers', '~> 0.10.0'
 
+gem 'foreman'
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
